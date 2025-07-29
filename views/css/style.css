@@ -1,0 +1,132 @@
+
+header{
+
+    display: flex;
+    justify-content: center;
+    background-color: #aff0f1;
+    padding:20px 0 20px;
+}
+#logo{
+    width: 200px;
+}
+
+main{
+
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    height: 100vh;
+    background-image: url(images/lavando-coche.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+    background-color: #669999;
+        
+}
+
+
+main form{
+
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 20px 50px 20px 50px; 
+    background-color: rgba(175, 240, 241,70%);
+    border-radius: 1em;
+
+}
+
+label{
+    margin: 5px;
+    font-weight: bold;
+}
+span{
+    color: red;
+    margin-bottom: 30px;
+}
+#limpiezaLlantas{
+    margin-bottom: 30px;
+}
+
+#ticket{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    background-color: rgba(175, 240, 241,85%);
+    border-radius: 1em;
+    border: 3px solid rgb(54, 74, 101);
+    font-weight: bold;
+    color: rgb(7, 22, 42);
+
+}
+#ticket ul{
+    list-style-type: none;
+    padding: 20px;
+    margin:0;
+
+}
+#ticket li{
+    padding: 20px;
+
+}
+
+.coche{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(145, 189, 190, 0.5);
+    border-radius: 1em;
+}
+
+.resaltado{
+    font-size: 1.3em;
+}
+
+.elementoDestacado{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+
+    background-color:#6AAAE4;
+}
+
+.elementoDestacado:hover{
+
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
+    background-color :rgb(35, 57, 88);
+}
+
+ul .coche{
+    border: 1px solid black;
+}
+table, th, td{
+	border: solid 1px white;
+	border-collapse: collapse;
+    text-align: center;
+}
+table{
+    margin: 50px;
+    border-collapse:collapse;
+}
+td{
+    
+    padding: 5px;
+    background-color: #a7c3cd;
+}
+th{
+    color: white;
+    padding: 5px;
+    background-color: #42565d;
+}
+
+
+
